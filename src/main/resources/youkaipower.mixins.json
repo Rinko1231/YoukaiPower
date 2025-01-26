@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.youkaipower.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "youkaipower.refmap.json",
+  "mixins": [
+    "BossYoukaiEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
